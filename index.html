@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Keshav Ganapathy, High School Senior with research, project, and work experience in Machine Learning.">
+        <title>Keshav Ganapathy</title>
+        <link rel ='icon' href = 'images/favicon.ico' type = 'image/x-icon'>
+        <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.0/css/bulma.min.css">
+        <script src="https://kit.fontawesome.com/7dc3015a44.js" crossorigin="anonymous"></script><link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all"><link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-font-face.min.css" media="all"><link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-shims.min.css" media="all">
+      </head>
+  </head>
+  <body>
+    <nav class="navbar is-white">
+
+      <div class="navbar-brand">
+        <a class="navbar-item" href="index.html">
+          <img src="images/logo.png" width="32" height="32">
+        </a>
+        <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="navbarBasicExample" class="navbar-menu is-dark">
+        <div class="navbar-start">
+          <a class="navbar-item is-active" href="index.html">
+            <i class="fas fa-home"></i>&nbsp;&nbsp;Home
+          </a>
+
+          <a class="navbar-item" href = "experience.html">
+            <i class="fas fa-business-time"></i>&nbsp;&nbsp;Experience
+          </a>
+
+          <a class="navbar-item" href = "projects.html">
+            <i class="fas fa-cogs"></i>&nbsp;&nbsp;Projects
+          </a>
+
+          <a class="navbar-item" href="contact.html">
+            <i class="fas fa-id-card-alt"></i>&nbsp;&nbsp;Contact
+          </a>
+
+          <a class="navbar-item" href = "files/Resume_Ganapathy.pdf"  target="_blank">
+            <i class="fas fa-file"></i>&nbsp;&nbsp;Resume
+          </a>
+        </div>
+        <!-- <div class="navbar-end">
+    ICONS
+         </span> -->
+        </div>
+      </div>
+    </nav>
+
+
+    <section class="hero is-light has-text-centered is-small">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title is-1">Keshav Ganapathy</h1></br></br>
+          <div class="columns is-vcentered">
+            <div class="column">
+              <figure class="image">
+                <img class="is-rounded" src="images/keshav.jpg">
+              </figure>
+            </div>
+            <div class="column has-text-left">
+              <p class="subtitle is-5">
+                I am a rising senior at Centennial High School, and computing enthusiast with research, project, and work experience in Machine Learning, Web Development, and Natural Language Processing.
+              </p>
+              <p class="subtitle is-5">
+                I am currently working on three projects. You can find a brief description of them below:
+                <div class="content has-text-left">
+                  <ol type="I">
+                    <li>Applied Physics Laboratory(APL) ASPIRE Program - Implementing Deep Multi-Agent Reinforcement Learning with Ray - Mentors: <a href = "https://scholar.google.com/citations?user=zCnVnW4AAAAJ&hl=en">Joshua McClellan</a> and Justice Sefas</li></br>
+                    <li>Stony Brook University - Generating explanations for relation extraction models - Mentor: <a href = "https://www3.cs.stonybrook.edu/~niranjan/">Prof. Niranjan Balasubramanian</a>, Graduate Students: Nishant Shankar</li></br>
+                    <li>University of Maryland College Park - An empirical analysis of the paper review process - Mentor: <a href = "https://www.cs.umd.edu/~tomg/">Prof. Thomas Goldstein</a>, Graduate Students: Micah Goldblum, Fellow contributors: Alex Valtchanov, David Tran, and Raymond Feng</li>
+                  </ol>
+                </div>
+              </p>
+              <p class="subtitle is-5">
+                In school, I am the president of our schools computer science club and german honor society, and am a part of many other clubs! Outside of school, I enjoy playing tennis and basketball, and listening to music.
+              </p>
+              <section class = "has-text-centered">
+              <a class="button is-black" href = "experience.html">Experience</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <a class="button is-black" href = "projects.html">Projects</a>
+            </section>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <footer class="footer">
+      <div class="container">
+        <div class="content has-text-centered ">
+          <div class="soc">
+            <a href="https://github.com/keshavganapathy" target="_blank"><i class="fab fa-github fa-3x" style="color:#000000;" aria-hidden="true"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://www.linkedin.com/in/keshavganapathy/" target="_blank"><i class="fab fa-linkedin fa-3x" style="color:#000000;" aria-hidden="true"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="mailto:kganapathy23@gmail.com" target="_blank"><i class="fas fa-envelope-square fa-3x" style="color:#000000;" aria-hidden="true"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
+          </div>
+          <p>
+          </br><strong>Keshav Ganapathy</strong>
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script type="text/javascript">
+    document.addEventListener('DOMContentLoaded', () => {
+
+    // Get all "navbar-burger" elements
+    const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+    // Check if there are any navbar burgers
+    if ($navbarBurgers.length > 0) {
+
+      // Add a click event on each of them
+      $navbarBurgers.forEach( el => {
+        el.addEventListener('click', () => {
+
+          // Get the target from the "data-target" attribute
+          const target = el.dataset.target;
+          const $target = document.getElementById(target);
+
+          // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+          el.classList.toggle('is-active');
+          $target.classList.toggle('is-active');
+
+        });
+      });
+    }
+
+  });
+  </script>
+</html>
