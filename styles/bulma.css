@@ -11513,7 +11513,7 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 }
 
 .hero.is-small .hero-body {
-  padding: 1.5rem;
+  padding: 4rem;
 }
 
 @media screen and (min-width: 769px), print {
