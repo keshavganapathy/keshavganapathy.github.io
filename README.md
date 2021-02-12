@@ -1,3 +1,8 @@
+## keshavganapathy.github.io
+Welcome to the repository of my portfolio website!
+
+Below is the documentations for Bootstrap, the framework I used to make this website. Additionally, credit to <a href="https://github.com/bchiang7">Brittany Chiang</a> for color scheme inspiration.
+
 <p align="center">
   <a href="https://getbootstrap.com/">
     <img src="https://getbootstrap.com/docs/5.0/assets/brand/bootstrap-logo-shadow.png" alt="Bootstrap logo" width="200" height="165">
