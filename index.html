@@ -1,138 +1,279 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Keshav Ganapathy</title>
-        <meta name="description" content="Keshav Ganapathy, High School Senior with research, project, and work experience in Machine Learning.">
-        <link rel ='icon' href = 'images/favicon.ico' type = 'image/x-icon'>
-        <link rel="stylesheet" href="styles/bulma.css">
-        <script src="https://kit.fontawesome.com/7dc3015a44.js" crossorigin="anonymous"></script><link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all"><link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-font-face.min.css" media="all"><link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-shims.min.css" media="all">
-      </head>
-  </head>
-  <body>
-    <nav class="navbar is-light">
+<html lang="en">
+<head>
+  <title>Keshav Ganapathy</title>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel='shortcut icon' type='image/x-icon' href='images/favicon.ico' />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="styles/main.css">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/7dc3015a44.js" crossorigin="anonymous"></script><link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all"><link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-font-face.min.css" media="all"><link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-shims.min.css" media="all">
+</head>
+<body>
 
-      <div class="navbar-brand">
-        <a class="navbar-item" href="index.html">
-          <img src="images/logo.png" width="32" height="32">
-        </a>
-        <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-        </a>
+<!-- Navbar -->
+
+    <nav class="navbar fixed-top navbar-custom navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">KG</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about" onclick="function()">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link resume" href="files/Resume_Ganapathy.pdf">Resume</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+<!-- Home -->
+
+      <div class="jumbotron">
+        <h1 class="hi">Hi, I'm</h1>
+        <h1 class="name">Keshav Ganapathy.</h1>
+        <h1 class="enthusiast">High School Senior & Machine Learning Enthusiast</h1>
+        <h1 class="paragraph">
+          I'm senior at Centennial High School, and computing enthusiast with research, project, and work experience in Machine Learning, Web Development, and Natural Language Processing. Welcome to my portfolio site!
+        </h1>
+        <div>
+          <a href="#projects" class="about-button">Projects</a>
+        </div>
       </div>
 
-      <div id="navbarBasicExample" class="navbar-menu is-dark">
-        <div class="navbar-start">
-          <a class="navbar-item is-active" href="index.html">
-            <i class="fas fa-home"></i>&nbsp;&nbsp;Home
-          </a>
+<!-- About -->
 
-          <a class="navbar-item" href = "experience.html">
-            <i class="fas fa-business-time"></i>&nbsp;&nbsp;Experience
-          </a>
-
-          <a class="navbar-item" href = "projects.html">
-            <i class="fas fa-cogs"></i>&nbsp;&nbsp;Projects
-          </a>
-
-          <a class="navbar-item" href="contact.html">
-            <i class="fas fa-id-card-alt"></i>&nbsp;&nbsp;Contact
-          </a>
-
-          <a class="navbar-item" href = "files/Resume_Ganapathy.pdf"  target="_blank">
-            <i class="fas fa-file"></i>&nbsp;&nbsp;Resume
-          </a>
-        </div>
-        <!-- <div class="navbar-end">
-    ICONS
-         </span> -->
-        </div>
-      </div>
-    </nav>
-
-
-    <section class="hero is-light has-text-centered is-small">
-      <div class="hero-body">
+      <div class="jumbotron">
+        <h1 class="about-header" id="about">1. About Me</h1>
         <div class="container">
-          <h1 class="title is-1">Keshav Ganapathy</h1>
-          <hr style="background-color:#e3e3e3"></br></br>
-          <div class="columns is-vcentered">
-            <div class="column">
-              <figure class="image">
-                <img class="is-rounded" src="images/keshav.jpg">
-              </figure>
+          <div class="row justify-content-center">
+            <div class="col-md-6 col-md-pull-6 text-container my-auto col1">
+              <p class="about-text">Hi! I'm Keshav, an aspiring software engineer from Ellicott City, MD.</p>
+              <p class="about-text">I enjoy leveraging Machine Learning to tackle the problems I see around me. In my free time, I also enjoy making stylish, responsive, and effective websites.</p>
+              <p class="about-text">Feel free to look around the website to see my past experience, projects, and more! Outside of school, I play tennis and basketball frequently and enjoy playing Chess and listening to music.</p>
+              <p class="about-text">Currently, I am working on two projects that you can see below:</p>
+              <div class="bullet-text">
+                <ol type="I">
+                  <li class="bullet-text">Applied Physics Laboratory(APL) ASPIRE Program - Implementing Deep Multi-Agent Reinforcement Learning with Ray - Mentors: <a class="bullet-text" href = "https://scholar.google.com/citations?user=zCnVnW4AAAAJ&hl=en">Joshua McClellan</a></li></br>
+                  <li class="bullet-text">Stony Brook University - Generating explanations for relation extraction models - Mentor: <a class="bullet-text" href = "https://www3.cs.stonybrook.edu/~niranjan/">Prof. Niranjan Balasubramanian</a>, Graduate Students: Nishant Shankar</li>
+                </ol>
+              </div>
             </div>
-            <div class="column has-text-left">
-              <p class="subtitle is-5">
-                Hi! I am senior at Centennial High School, and computing enthusiast with research, project, and work experience in Machine Learning, Web Development, and Natural Language Processing.
-              </p>
-              <p class="subtitle is-5">
-                I am currently working on two projects. You can find a brief description of them below:
-                <div class="content has-text-left">
-                  <ol type="I">
-                    <li>Applied Physics Laboratory(APL) ASPIRE Program - Implementing Deep Multi-Agent Reinforcement Learning with Ray - Mentors: <a href = "https://scholar.google.com/citations?user=zCnVnW4AAAAJ&hl=en">Joshua McClellan</a> and Justice Sefas</li></br>
-                    <li>Stony Brook University - Generating explanations for relation extraction models - Mentor: <a href = "https://www3.cs.stonybrook.edu/~niranjan/">Prof. Niranjan Balasubramanian</a>, Graduate Students: Nishant Shankar</li>
-                  </ol>
-                </div>
-              </p>
-              <p class="subtitle is-5">
-                In school, I am the president of our schools Pyoneers club, a club that focuses on teaching members of our community Python, and German Honor Society, and am a part of many other clubs! Outside of school, I enjoy playing tennis and basketball, and listening to music.
-              </p>
-              <section class = "has-text-centered">
-              <a class="button is-black" href = "experience.html">More About Me</a>
-            </section>
+            <div class="col-md-6 col-md-push-6 my-auto col2">
+              <img src="images/keshav.jpg" class="img-fluid" alt="...">
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </div> 
 
+<!-- Projects -->
 
-    <footer class="footer">
-      <div class="container">
-        <div class="content has-text-centered ">
-          <div class="soc">
-            <a href="https://github.com/keshavganapathy" target="_blank"><i class="fab fa-github fa-3x" style="color:#000000;" aria-hidden="true"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="https://www.linkedin.com/in/keshavganapathy/" target="_blank"><i class="fab fa-linkedin fa-3x" style="color:#000000;" aria-hidden="true"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="mailto:kganapathy23@gmail.com" target="_blank"><i class="fas fa-envelope-square fa-3x" style="color:#000000;" aria-hidden="true"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
+<div id="projects"class="jumbotron">
+  <h1 class="about-header">2. Projects</h1>
+  <div class="container">
+    <div class="row justify-content-center">
+      
+      <div class="col-12 col-md-6 col-lg-3">
+        
+        <div class="card">
+          <img src="images/portfolio/groove.png" class = "card-img-top" alt="groove">
+          <div class="card-body">
+            <h5 class="card-title">Groove</h5>
+            <p class = card-text>Groove is a platform whose goal is to provide high quality fitness training to all. Groove recieved 2nd Place Health Hack at DefHacks 2020 virutal.</p>
+            <a class="button is-black" href = "https://devpost.com/software/groove" target="_blank""><i class="fab fa-dev fa-2x" style="color:#FFFFFF;" aria-hidden="true"></i></a>&nbsp&nbsp
+            <a class="button is-black" href = "https://github.com/keshavganapathy/Groove" target="_blank"><i class="fab fa-github fa-2x" style="color:#FFFFFF;" aria-hidden="true"></i></a>&nbsp&nbsp
+            <a class="button is-black" href = "https://www.youtube.com/watch?v=VJJGQrP6cqc&t=0s" target="_blank"><i class="fab fa-youtube fa-2x" style="color:#FFFFFF;" aria-hidden="true"></i></a>
           </div>
-          <p>
-          </br><strong>Keshav Ganapathy</strong>
-          </p>
+        </div>
+
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-3">
+        
+        <div class="card">
+          <img class="card-img-top" src="images/portfolio/brainfun.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">BrainFun</h5>
+            <p class="card-text">An award winning web application that teaches kids logical thinking via the esoteric programming language Brainf*ck.</p>
+            <a class="button is-black" href = "https://devpost.com/software/brainfun-fqvu65" target="_blank""><i class="fab fa-dev fa-2x" style="color:#FFFFFF;" aria-hidden="true"></i></a>&nbsp&nbsp
+            <a class="button is-black" href = "https://github.com/keshavganapathy/brainfun" target="_blank"><i class="fab fa-github fa-2x" style="color:#FFFFFF;" aria-hidden="true"></i></a>&nbsp&nbsp
+            <a class="button is-black" href = "https://www.youtube.com/watch?v=OePcA8RWerU" target="_blank"><i class="fab fa-youtube fa-2x" style="color:#FFFFFF;" aria-hidden="true"></i></a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-3">
+        
+        <div class="card">
+          <img class="card-img-top" src="images/portfolio/webpoint.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">WebPoint Websites</h5>
+            <p class="card-text">Webpoint is a volunteer organization I co-founded that delivers local businesses professional websites and provides students practical experience in web development.</p>
+            <a class="button is-black" href = "https://webpoint.dev/" target="_blank"><i class="fas fa-link fa-2x" style="color:#FFFFFF;" aria-hidden="true"></i></a>&nbsp&nbsp
+            <a class="button is-black" href = "https://github.com/webpointco" target="_blank"><i class="fab fa-github fa-2x" style="color:#FFFFFF;" aria-hidden="true"></i></a>&nbsp&nbsp
+            <a class="button is-black" href = "mailto:webpointexecutives@gmail.com" target="_blank"><i class="fas fa-envelope-square fa-2x" style="color:#FFFFFF;" aria-hidden="true"></i></a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-3">
+        
+        <div class="card">
+          <img class="card-img-top" src="images/portfolio/datax.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">DataX</h5>
+            <p class="card-text">An innovative and adaptive tool that allows for easily customizable multi-dimensional data representation</p>
+            <a class="button is-black" href = "https://devpost.com/software/datax-5y78dn" target="_blank"><i class="fab fa-dev fa-2x" style="color:#FFFFFF;" aria-hidden="true"></i></a>&nbsp&nbsp
+              <a class="button is-black" href = "https://github.com/keshavganapathy/DataX" target="_blank"><i class="fab fa-github fa-2x" style="color:#FFFFFF;" aria-hidden="true"></i></a>&nbsp&nbsp
+              <a class="button is-black" href = "https://www.youtube.com/watch?v=E-lx0y6E2kY&feature=emb_title" target="_blank"><i class="fab fa-youtube fa-2x" style="color:#FFFFFF;" aria-hidden="true"></i></a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="card-splitter"></div>
+
+      <div class="col-12 col-md-6 col-lg-3">
+        
+        <div class="card">
+          <img class="card-img-top" src="images/portfolio/airomega.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">AirOmega</h5>
+            <p class="card-text">AirOmega was a website for FBLA 2020. The challenge was to design an airline website. We received 1st place at regionals.</p>
+            <a class="button is-black" href = "https://devpost.com/software/groove" target="_blank""><i class="fab fa-dev fa-2x" style="color:#FFFFFF;" aria-hidden="true"></i></a>&nbsp&nbsp
+            <a class="button is-black" href = "https://github.com/keshavganapathy/Groove" target="_blank"><i class="fab fa-github fa-2x" style="color:#FFFFFF;" aria-hidden="true"></i></a>&nbsp&nbsp
+            <a class="button is-black" href = "https://www.youtube.com/watch?v=VJJGQrP6cqc&t=0s" target="_blank"><i class="fab fa-youtube fa-2x" style="color:#FFFFFF;" aria-hidden="true"></i></a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-3">
+        
+        <div class="card">
+          <img class="card-img-top" src="images/portfolio/polibias.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">PoliBias</h5>
+            <p class="card-text">A flask app that uses a recurrent neural network to detect bias in common texts such as news, tweets, etc.</p>
+            <a class="button is-black" href = "https://devpost.com/software/polibias-iqrwh9" target="_blank"><i class="fab fa-dev fa-2x" style="color:#FFFFFF;" aria-hidden="true"></i></a>&nbsp&nbsp
+              <a class="button is-black" href = "https://github.com/keshavganapathy/PoliBias" target="_blank"><i class="fab fa-github fa-2x" style="color:#FFFFFF;" aria-hidden="true"></i></a>&nbsp&nbsp
+              <a class="button is-black" href = "https://www.youtube.com/watch?v=Ynrbp6ga888&t=0s" target="_blank"><i class="fab fa-youtube  fa-2x" style="color:#FFFFFF;" aria-hidden="true"></i></a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-3">
+        
+        <div class="card">
+          <img class="card-img-top" src="images/portfolio/playground.PNG" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">The Playground</h5>
+            <p class="card-text">A spinoff of the popular game jetpack joyride made as the final project for my object oriented design class.</p>
+            <a class="button is-black" href = "https://github.com/keshavganapathy/the-playground" target="_blank"><i class="fab fa-github fa-2x" style="color:#FFFFFF;" aria-hidden="true"></i></a>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+    <div class="row justify-content-center">
+      <div class="col my-auto">
+        <h1 class="skill-header">Languages</h1>
+        <ul>
+          <li class="tech">Python</li>
+          <li class="tech">Java</li>
+          <li class="tech">HTML and SSML</li>
+          <li class="tech">CSS <em>(Bulma and Bootstrap)</em></li>
+        </ul>
+      </div>
+      <div class="col my-auto">
+        <h1 class="skill-header">Tools & Technologies</h1>
+        <ul>
+          <li class="tech">GitHub/GitLab</li>
+          <li class="tech">Pug</li>
+          <li class="tech">VSCode and Atom</li>
+          <li class="tech">Jupyter Notebook</li>
+          <li class="tech">Windows, MacOs, and Linux</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</div> 
+
+
+
+<!-- Contact -->
+
+<div class="jumbotron">
+  <h1 class="about-header" id="contact">3. Contact</h1>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col my-auto">
+        <form action="https://formsubmit.co/kganapathy23@gmail.com" method="POST" class="contact-form">
+          <input type="hidden" name="_captcha" value="false">
+          <p class="form-label">Full Name</p>
+          <input class="form-input" type="text" placeholder="Enter your Full Name" name="Name" required>
+    
+          <p class="form-label">Email Address</p>
+          <input class="form-input" type="text" placeholder="Enter your Email" name="Email" required>
+    
+          <p class="form-label">Message</p>
+          <textarea id="form-textarea" name="Message" placeholder="Feel Free to Leave me a Message Here!" id="" cols="30" rows="6"></textarea>
+          <button type = "submit" class="submit-btn">Submit</button>
+      </form>
+      </div>
+    </div>
+  </div>
+</div> 
+
+<!-- Footer -->
+
+<div class="jumbotron">
+  <div class="container">
+
+    <footer class="footer text-center">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-4 mb-5 mb-lg-0">
+            <h4 class="text-uppercase mb-4" style="color:white;">Keshav Ganapathy</h4>
+            <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/keshavganapathy" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+            <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/keshavganapathy/" target="_blank"><i class="fab fa-fw fa-linkedin fa-2x"></i></a>
+            <a class="btn btn-outline-light btn-social mx-1" href="mailto:kganapathy23@gmail.com" target="_blank"><i class="fas fa-envelope-square fa-2x"></i></a>
+          </div>
         </div>
       </div>
     </footer>
-  </body>
-  <script type="text/javascript">
-    document.addEventListener('DOMContentLoaded', () => {
+  </div>
+</div> 
 
-    // Get all "navbar-burger" elements
-    const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+<script>
+    $(document).on('click',function(){
+    $('.collapse').collapse('hide');
+    })
+</script> 
 
-    // Check if there are any navbar burgers
-    if ($navbarBurgers.length > 0) {
+</body>
 
-      // Add a click event on each of them
-      $navbarBurgers.forEach( el => {
-        el.addEventListener('click', () => {
-
-          // Get the target from the "data-target" attribute
-          const target = el.dataset.target;
-          const $target = document.getElementById(target);
-
-          // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
-          el.classList.toggle('is-active');
-          $target.classList.toggle('is-active');
-
-        });
-      });
-    }
-
-  });
-  </script>
 </html>
