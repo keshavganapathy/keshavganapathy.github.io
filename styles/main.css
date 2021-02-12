@@ -292,10 +292,23 @@ body{
     .card{
         margin-bottom: 3rem;
     }
+    #resume {
+        border: none;
+        margin-right: 1rem;
+        color: #9197a1;
+        
+    }
 
 }
 
 @media only screen and (min-width : 325px) and (max-width : 768px){
+    #resume {
+        border: none;
+        margin-right: 1rem;
+        color: #9197a1;
+        
+    }
+
     .navbar-brand{
         margin-top: 1rem;
         margin-left: 0rem;
@@ -343,6 +356,14 @@ body{
 }
 
 @media only screen and (max-width : 325px){
+
+    #resume {
+        border: none;
+        margin-right: 1rem;
+        color: #64ffda;
+        
+    }
+
     .navbar-brand{
         margin-top: 1rem;
         margin-left: 0rem;
