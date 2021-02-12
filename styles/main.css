@@ -36,25 +36,22 @@ body{
     margin-right: 1rem;
 }
 
-.resume {
+#resume {
     border: 1px solid #64ffda;
-    border-radius: 10px;
+    border-radius: 3px;
     margin-right: 1rem;
+    color: #64ffda;
+    
 }
 
 .resume:hover {
     text-decoration: none;
     color: white;
     transition-duration: 500ms;
-    background: rgba(100,255,218, .2)
+    background: rgba(100,255,218, .2);
 }
 .nav-link:hover{
     color: white;
-}
-
-.fill { 
-    min-height: 100%;
-    height: 100%;
 }
 
 .jumbotron{
@@ -74,22 +71,23 @@ body{
 }
 
 .enthusiast{
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: #8892b0;
 }
 
 .paragraph{
     font-size: 1.3rem;
     color: white;
-    width: 60%;
+    width: 100%;
+    padding-bottom: 1rem;
 }
 
 .about-button {
     border: 1px solid #64ffda;
-    border-radius: 10px;
+    border-radius: 4px;
     /* background-color: orange; */
     color:#64ffda;
-    padding: 15px 35px;
+    padding: 10px 25px;
     margin-top: 2rem;
     text-align: center;
     text-decoration: none;
@@ -186,6 +184,7 @@ body{
 
 .skill-header{
     padding-top: 2rem;
+    font-size: 1.7rem;
     color: white;
 }
 
@@ -232,6 +231,7 @@ body{
     width: 100%;
     background: rgba(255,255,255,0.2);
     color: #fff;
+    padding: 10px 10px;
 }
 
 .submit-btn {
@@ -247,9 +247,19 @@ body{
 }
 
 .form-input:hover, #form-textarea:hover {
-    border: 1px solid #64ffda;;
+    border: 1px solid #64ffda;
 }
 
+
+.top-social{
+    color: white;
+    padding-right: 1rem;
+
+}
+
+.top-social:hover{
+    color: #64ffda;
+}
 
 /* Mobile Stuff */
 @media only screen and (min-width: 768px) and (max-width: 1280px) {
@@ -378,6 +388,6 @@ body{
         margin-bottom: 2rem;
     }
     .btn{
-        margin-bottom: 1rem;
+        padding-bottom: 1rem;
     }
 }
