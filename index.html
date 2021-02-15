@@ -287,5 +287,12 @@
       </footer>
     </div>
   </div> 
+  <script>
+    for (const link of document.querySelector(".navbar-nav").children) {
+      link.addEventListener("click", () => {
+          document.querySelector(".navbar-toggler").click()
+      });
+  }
+  </script>
   </body>
 </html>
