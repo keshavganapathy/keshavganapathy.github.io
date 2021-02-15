@@ -290,10 +290,10 @@
   <script>
   if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
     for (const link of document.querySelector(".navbar-nav").children) {
-    link.addEventListener("click", () => {
-        document.querySelector(".navbar-toggler").click()
-    });
-}
+      link.addEventListener("click", () => {
+          document.querySelector(".navbar-toggler").click()
+      });
+    }
   }
   </script>
   </body>
