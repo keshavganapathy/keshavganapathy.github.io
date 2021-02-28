@@ -326,7 +326,7 @@ body{
 
 }
 
-@media only screen and (min-width : 325px) and (max-width : 768px){
+@media only screen and (min-width : 325px) and (max-width : 767px){
     #resume {
         border: none;
         margin-right: 1rem;
