@@ -135,6 +135,11 @@ body{
     padding-right: 3rem;
 }
 
+.col1-special{
+    padding-right: 3rem;
+}
+
+
 /* Projects CSS */
 .card-splitter{
     padding-top: 1rem;
@@ -354,6 +359,13 @@ body{
         padding-top: 3rem;
         padding-right: 0;
     }
+        
+    .col1-special{
+        padding-top: 3rem;
+        padding-right: 0;
+        padding-left: 0;
+    }
+
     .name{
         font-size: 3.5rem;
     }
@@ -414,6 +426,14 @@ body{
         padding-top: 3rem;
         padding-right: 0;
     }
+
+    .col1-special{
+        padding-top: 3rem;
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+
     .name{
         font-size: 2.7rem;
     }
