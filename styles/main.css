@@ -198,8 +198,10 @@ body{
 
 #paperbreak{
     color: #64ffda;
+    background-color:#64ffda;
     border-color: #64ffda;
     height: 3px;
+    opacity : .5;
 }
 
 .paper-header{
