@@ -208,6 +208,106 @@ body{
 }
 
 
+.learn-more-button{
+    border: 1px solid #64ffda;
+    border-radius: 3px;
+    color: #64ffda;
+    background-color: #112240;
+    width: 70%;
+    margin-top: 1rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+.learn-more-button:hover{
+    text-decoration: none;
+    border: 1px solid #64ffda;
+    color: #64ffda;
+    transition-duration: 500ms;
+    background: rgba(100,255,218, .2);
+}
+
+.modal-content{
+    background-color: #112240;
+}
+
+.description-title{
+    color: white;
+    padding-top: 1rem;
+    font-size: 1.3rem;
+}
+
+.project-description{
+    color: white;
+}
+
+.modal-title{
+    color: #64ffda;
+}
+
+.learn-more-container{
+    text-align: center;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    justify-content: center;
+}
+
+
+.tools-tech{
+    display: inline;
+}
+.tools-tech .fab{
+    display: inline;
+    padding: 0 0 0 0;
+}
+
+.tools-tech .fas{
+    display: inline;
+    padding: 0 0 0 0;
+}
+
+.webpoint-link{
+    color: #64ffda;
+}
+
+.webpoint-link:hover{
+    color: #57d4b7;
+}
+
+.video{
+
+}
+
+.modal-header .btn-close{
+    background-color:#9197a1 !important;
+    opacity: 1;
+}
+
+.modal-footer .btn-secondary{
+    background-color:#9197a1 !important;
+    color: black;
+}
+
+.modal-header{
+    border: #112240;
+}
+
+.modal-footer{
+    border: #112240;
+}
+
+.modal {
+    overflow-y: auto;
+}
+
+.modal-open {
+    overflow: auto;
+}
+
+.modal-open[style] {
+    padding-right: 0px !important;
+}
+
 /* Research CSS */
 
 #paperbreak1{
@@ -570,5 +670,8 @@ body{
     
     .carousel-control-next{
         margin-right: -1rem;
+    }
+    .video{
+        width: 90%!important;
     }
 }
