@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Waiting+for+the+Sunrise&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 html,body {
     width: 100%;
     margin: 0px;
@@ -295,6 +299,7 @@ body{
 .modal-footer{
     border: #112240;
 }
+
 
 .modal {
     overflow-y: auto;

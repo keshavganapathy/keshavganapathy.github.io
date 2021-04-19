@@ -26,7 +26,7 @@
             <ul class="navbar-nav ms-auto">
               
               <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
+                <a class="nav-link" href="#index">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#about">About</a>
@@ -50,7 +50,7 @@
 
 <!-- Home -->
 
-      <div class="jumbotron">
+      <div class="jumbotron" id="index">
         <div class="container">
           <h1 class="hi">Hi, I'm</h1>
           <h1 class="name">Keshav Ganapathy.</h1>
@@ -100,7 +100,7 @@
   <div class="container">
 
 <!-- Harmony Modal -->
-<div class="modal fade" id="harmonymodal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="harmonymodal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" >
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
@@ -712,6 +712,7 @@
       </footer>
     </div>
   </div> 
+
   <script>
   if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
     for (const link of document.querySelector(".navbar-nav").children) {
@@ -721,5 +722,34 @@
     }
   }
   </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+  $(document).ready(function(){
+    // Add smooth scrolling to all links
+    $("a").on('click', function(event) {
+
+      // Make sure this.hash has a value before overriding default behavior
+      if (this.hash !== "") {
+        // Prevent default anchor click behavior
+        event.preventDefault();
+
+        // Store hash
+        var hash = this.hash;
+
+        // Using jQuery's animate() method to add smooth page scroll
+        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 800, function(){
+
+          // Add hash (#) to URL when done scrolling (default click behavior)
+          window.location.hash = hash;
+        });
+      } // End if
+    });
+  });
+  </script>
+
+
   </body>
 </html>
