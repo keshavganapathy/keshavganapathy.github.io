@@ -315,6 +315,10 @@ body{
 
 /* Research CSS */
 
+.spacer{
+    padding-top: 2rem;
+}
+
 #paperbreak1{
     color: #64ffda;
     background-color:#64ffda;
