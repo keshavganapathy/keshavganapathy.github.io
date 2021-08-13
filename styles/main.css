@@ -1,0 +1,686 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Waiting+for+the+Sunrise&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+html,body {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+
+/* Overall */
+.awesome-icon{
+    color: white;
+}
+
+.awesome-icon:hover{
+    color: #64ffda!important;
+}
+
+
+
+/* Index CSS */
+
+body{
+    font-family: 'Lato', sans-serif;
+    margin: 0 0 0 0;
+}
+
+.nav-item{
+ margin-top: .5rem;
+ margin-bottom: .5rem;
+}
+
+.navbar-brand{
+    margin-top: .5rem;
+    margin-left: 2rem;
+}
+
+.navbar-custom { 
+    background-color: #0a192f!important; 
+} 
+
+.nav-link{
+    font-size: 20px;
+    margin-right: 1rem;
+}
+
+#resume {
+    border: 1px solid #64ffda;
+    border-radius: 3px;
+    margin-right: 1rem;
+    color: #64ffda;
+    
+}
+
+.resume:hover {
+    text-decoration: none;
+    color: white;
+    transition-duration: 500ms;
+    background: rgba(100,255,218, .2);
+}
+.nav-link:hover{
+    color: white;
+}
+
+.jumbotron{
+    background-color: #0a192f!important;
+    padding: 3rem 3rem;
+}
+
+.name{
+    font-size: 4rem;
+    color: white;
+}
+
+.hi{
+    margin-top: 6rem;
+    font-size: 2rem;
+    color:#64ffda;
+}
+
+.enthusiast{
+    font-size: 2rem;
+    color: #8892b0;
+}
+
+.paragraph{
+    font-size: 1.3rem;
+    color: white;
+    width: 100%;
+    padding-bottom: 1rem;
+}
+
+.about-button {
+    border: 1px solid #64ffda;
+    border-radius: 4px;
+    /* background-color: orange; */
+    color:#64ffda;
+    padding: 10px 25px;
+    margin-top: 2rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+}
+
+.about-button:hover {
+    text-decoration: none;
+    color: #64ffda;
+    transition-duration: 500ms;
+    background: rgba(100,255,218, .2)
+}
+
+/* ABOUT CSS */
+
+#about{
+    padding-top: 3rem;
+}
+
+.about-header{
+    width: 100%;
+    font-size: 2rem;
+    color:#64ffda;
+    padding-bottom: 1rem;
+}
+
+.text-container {
+    font-size: 1.3rem;
+    text-align: left;
+    color: white;
+}
+
+.bullet-text{
+    text-decoration: none;
+    color: #8892b0;
+}
+
+.bullet-text:hover{
+    text-decoration: none;
+    color: #8892b0;
+}
+
+.col2{
+    padding-left: 3rem;
+}
+
+.col1{
+    padding-right: 3rem;
+}
+
+.col1-special{
+    padding-right: 3rem;
+}
+
+
+/* Projects CSS */
+.card-splitter{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin: 0;
+}
+
+.card{
+    border: none;
+    filter: drop-shadow(0 0 0.5rem #112240);
+    float: none; /* Added */
+}
+
+.card-body{
+    background-color:#112240; 
+    filter: drop-shadow(0 0 0.5rem #112240);
+    margin: 0;
+}
+
+.card-title{
+    color: #8892b0;
+    font-weight: bold;
+}
+
+.card-text{
+    color: #8892b0;
+}
+
+.tech {
+  margin: 0.75em 0;
+  padding: 0 1em;
+  list-style: none;
+  color: white;
+}
+.tech::before {
+  content: "";
+  border-color: transparent #64ffda;;
+  border-style: solid;
+  border-width: 0.35em 0 0.35em 0.45em;
+  display: block;
+  height: 0;
+  width: 0;
+  left: -1em;
+  top: 0.9em;
+  position: relative;
+}
+
+.skill-header{
+    padding-top: 2rem;
+    font-size: 1.7rem;
+    color: white;
+}
+
+
+.learn-more-button{
+    border: 1px solid #64ffda;
+    border-radius: 3px;
+    color: #64ffda;
+    background-color: #112240;
+    width: 70%;
+    margin-top: 1rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+.learn-more-button:hover{
+    text-decoration: none;
+    border: 1px solid #64ffda;
+    color: #64ffda;
+    transition-duration: 500ms;
+    background: rgba(100,255,218, .2);
+}
+
+.modal-content{
+    background-color: #112240;
+}
+
+.description-title{
+    color: white;
+    padding-top: 1rem;
+    font-size: 1.3rem;
+}
+
+.project-description{
+    color: white;
+}
+
+.modal-title{
+    color: #64ffda;
+}
+
+.learn-more-container{
+    text-align: center;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    justify-content: center;
+}
+
+
+.tools-tech{
+    display: inline;
+}
+.tools-tech .fab{
+    display: inline;
+    padding: 0 0 0 0;
+}
+
+.tools-tech .fas{
+    display: inline;
+    padding: 0 0 0 0;
+}
+
+.webpoint-link{
+    color: #64ffda;
+}
+
+.webpoint-link:hover{
+    color: #57d4b7;
+}
+
+.video{
+
+}
+
+.modal-header .btn-close{
+    background-color:#9197a1 !important;
+    opacity: 1;
+}
+
+.modal-footer .btn-secondary{
+    background-color:#9197a1 !important;
+    color: black;
+}
+
+.modal-header{
+    border: #112240;
+}
+
+.modal-footer{
+    border: #112240;
+}
+
+
+.modal {
+    overflow-y: auto;
+}
+
+.modal-open {
+    overflow: auto;
+}
+
+.modal-open[style] {
+    padding-right: 0px !important;
+}
+
+/* Research CSS */
+
+.spacer{
+    padding-top: 2rem;
+}
+
+#paperbreak1{
+    color: #64ffda;
+    background-color:#64ffda;
+    border-color: #64ffda;
+    height: 3px;
+    opacity : .4;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+#paperbreak2{
+    color: #64ffda;
+    background-color:#64ffda;
+    border-color: #64ffda;
+    height: 3px;
+    opacity : .4;
+    margin-top: 2rem;
+}
+
+.project-text{
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
+
+.paper-header1{
+    font-size: 1.5rem;
+    color: #8892b0;
+}
+
+.paper-text1{
+    font-size: 1rem;
+    text-align: left;
+    color: white;
+}
+
+.paper-header2{
+    font-size: 1.5rem;
+    color: #8892b0;
+}
+
+.paper-text2{
+    font-size: 1rem;
+    text-align: left;
+    color: white;
+}
+
+.carousel-control-prev{
+    margin-left: -10rem;
+}
+
+.carousel-control-next{
+    margin-right: -10rem;
+}
+
+.carousel-indicators{
+    margin-bottom: -4rem;
+}
+
+/* Contact CSS */
+.contact-form {
+    width: 100%;
+}
+
+.form-label {
+    font-size: 1rem;
+    margin: 0;
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.form-input {
+    font-size: 1rem;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 10px 10px;
+    width: 100%;
+    background: rgba(255,255,255,0.2);
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.form-input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgba(255, 255, 255, 0.5);
+    opacity: 1; /* Firefox */
+  }
+  
+  .form-input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: white;
+  }
+  
+  .form-input::-ms-input-placeholder { /* Microsoft Edge */
+    color: white;
+  }
+
+#form-textarea {
+    margin-top: 10px;
+    margin-bottom: 40px;
+    width: 100%;
+    background: rgba(255,255,255,0.2);
+    color: #fff;
+    padding: 10px 10px;
+}
+
+.submit-btn {
+    padding: 8px 24px;
+    font-size: 1.1rem;
+    background: rgba(0, 0, 0, 0.329);
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.507);
+}
+
+.submit-btn:hover {
+    border: 1px solid white;
+}
+
+.form-input:hover, #form-textarea:hover {
+    border: 1px solid #64ffda;
+}
+
+
+.top-social{
+    color: white;
+    padding-right: 1rem;
+
+}
+
+.top-social:hover{
+    color: #64ffda;
+}
+
+.icon-holder{
+    text-align: center;
+}
+
+/* Mobile Stuff */
+@media only screen and (min-width: 768px) and (max-width: 1280px) {
+    .paragraph{
+        width: 100%;
+    }
+
+    .name{
+        font-size: 3.5rem;
+    }
+    
+    .hi{
+        font-size: 1.5rem;
+        margin-top: 3rem;
+        color:#64ffda;
+    }
+    
+    .enthusiast{
+        font-size: 2rem;
+        color: #8892b0;
+    }
+    
+    .paragraph{
+        font-size: 1rem;
+        color: white;
+    }
+
+    .resume {
+        border: none;
+    }
+    .card{
+        margin-bottom: 3rem;
+    }
+    #resume {
+        border: none;
+        margin-right: 1rem;
+        color: #9197a1;
+        
+    }
+    .carousel-control-prev{
+        margin-left: -5rem;
+    }
+    
+    .carousel-control-next{
+        margin-right: -5rem;
+    }
+
+    .carousel-indicators{
+        margin-bottom: -2rem;
+    }
+    
+
+}
+
+@media only screen and (min-width : 325px) and (max-width : 767px){
+    #resume {
+        border: none;
+        margin-right: 1rem;
+        color: #9197a1;
+        
+    }
+
+    .navbar-brand{
+        margin-top: 1rem;
+        margin-left: 0rem;
+    }
+    .paragraph{
+        width: 100%;
+    }
+    .row {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #specialcolumn{
+        flex-direction: column; 
+    }
+
+    .col2{
+        padding-top: 1rem;
+        padding-left: 0;
+    }
+    
+    .col1{
+        padding-top: 3rem;
+        padding-right: 0;
+    }
+        
+    .col1-special{
+        padding-top: 3rem;
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .name{
+        font-size: 3.5rem;
+        line-height: 1;
+        padding-bottom: 1rem;
+    }
+    
+    .hi{
+        margin-top: 3rem;
+        font-size: 1.5rem;
+        color:#64ffda;
+    }
+    
+    .enthusiast{
+        font-size: 1.2rem;
+        color: #8892b0;
+    }
+    
+    .paragraph{
+        font-size: 1rem;
+        color: white;
+    }
+    .resume {
+        border: none;
+    }
+    .card{
+        margin-bottom: 2rem;
+    }
+
+    #specialcolumn{
+        margin-left: .5rem;
+        margin-right: .5rem;
+    }
+
+    #normalcolumn{
+        margin-left: .5rem;
+        margin-right: .5rem;
+    }
+
+    .carousel-control-prev{
+        margin-left: -3rem;
+    }
+    
+    .carousel-control-next{
+        margin-right: -3rem;
+    }
+    
+}
+
+@media only screen and (max-width : 325px){
+
+    #resume {
+        border: none;
+        margin-right: 1rem;
+        color: #64ffda;
+        
+    }
+
+    .navbar-brand{
+        margin-top: 1rem;
+        margin-left: 0rem;
+    }
+    .paragraph{
+        width: 100%;
+    }
+    .row {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #specialcolumn{
+        margin-left: .5rem;
+        margin-right: .5rem;
+    }
+
+    #normalcolumn{
+        margin-left: .5rem;
+        margin-right: .5rem;
+    }
+
+    .col2{
+        padding-top: 1rem;
+        padding-left: 0;
+    }
+    
+    .col1{
+        padding-top: 3rem;
+        padding-right: 0;
+    }
+
+    .col1-special{
+        padding-top: 3rem;
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+
+    .name{
+        font-size: 2.7rem;
+        line-height: 1;
+        padding-bottom: 0rem;
+    }
+    
+    .hi{
+        margin-top: 3rem;
+        font-size: 1.5rem;
+        color:#64ffda;
+    }
+    
+    .enthusiast{
+        font-size: 1.2rem;
+        color: #8892b0;
+    }
+    
+    .paragraph{
+        font-size: 1rem;
+        color: white;
+    }
+    .resume {
+        border: none;
+    }
+    .card{
+        margin-bottom: 2rem;
+    }
+    .btn{
+        margin-bottom: 1rem;
+    }
+    .carousel-control-prev{
+        margin-left: -1rem;
+    }
+    
+    .carousel-control-next{
+        margin-right: -1rem;
+    }
+    .video{
+        width: 90%!important;
+    }
+}
