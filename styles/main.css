@@ -84,6 +84,16 @@ body{
     color:#64ffda;
 }
 
+.skills-row{
+    color: white;
+}
+
+.skill-col{
+    margin-top: 3rem;
+    text-align: center;
+    justify-content: center;
+}
+
 .enthusiast{
     font-size: 2rem;
     color: #8892b0;
