@@ -1,0 +1,396 @@
+/* styles.css */
+
+/* Define CSS variables for easy color theming */
+:root {
+    --background-color: white;       /* Changed to white */
+    --text-color: black;             /* Changed to black */
+    --highlight-color: #020e7a;      /* Navy */
+    --link-color: #020e7a;           /* Navy */
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+    --background-color: black;
+    --text-color: white;
+    --highlight-color: #00e1ff; /* Replace navy with #00e1ff */
+    --link-color: #00e1ff;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: 'Monaco', monospace;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+strong {
+    color: var(--highlight-color);
+}
+
+.highlight {
+    color: var(--highlight-color);
+}
+
+/* Header */
+
+header {
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative; /* To position the dark mode toggle */
+}
+
+@media (min-width: 768px) {
+    header {
+        height: 100vh;
+        padding: 0 40px;
+    }
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: var(--text-color);
+}
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+}
+
+h2 {
+    color: var(--text-color);
+}
+
+.status-list {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+}
+
+.status-item {
+    display: flex;
+    align-items: baseline;
+    margin: 0.5rem 0;
+    color: var(--text-color);
+}
+
+.status-item:before {
+    content: "›";
+    margin-right: 0.5rem;
+    color: #666;
+}
+
+/* Dark Mode Toggle Button */
+
+.dark-mode-toggle {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+#dark-mode-button {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: var(--highlight-color);
+    transition: color 0.3s ease;
+}
+
+#dark-mode-button:hover {
+    color: #555;
+}
+
+/* Buttons */
+
+.button-container {
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.button {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    margin: 0.5rem 1rem 0.5rem 0;
+    border-radius: 4px;
+    font-weight: 500;
+    transition: all 0.2s;
+    font-family: 'Monaco', monospace;
+}
+
+.primary {
+    background-color: var(--highlight-color);
+    color: white;
+    border: none;
+}
+
+.secondary {
+    background-color: white;
+    color: var(--highlight-color);
+    border: 1px solid var(--highlight-color);
+}
+
+.button:hover {
+    opacity: 0.9;
+    text-decoration: none;
+}
+
+/* Scroll Down Arrow */
+
+.scroll-down {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    position: relative;
+}
+
+.arrow {
+    font-size: 2rem;
+    color: var(--highlight-color);
+    animation: ripple 1.5s infinite;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+@keyframes ripple {
+    0% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    50% {
+        transform: translateY(10px);
+        opacity: 0.6;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Projects Section */
+
+#projects {
+    padding: 2rem 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+@media (min-width: 600px) {
+    .projects {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 992px) {
+    .projects {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.project-card {
+    background: white; /* Changed to white */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(2, 14, 122, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s;
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+}
+
+.project-content {
+    padding: 1.5rem;
+}
+
+.project-title {
+    font-size: 1.25rem;
+    margin: 0 0 1rem 0;
+    color: var(--highlight-color);
+}
+
+.project-description {
+    margin-bottom: 1rem;
+    color: var(--text-color);
+}
+
+.project-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.project-link {
+    background-color: white;
+    color: var(--highlight-color);
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    font-size: 0.875rem;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Monaco', monospace;
+    border: 1px solid var(--highlight-color);
+    transition: background-color 0.3s ease;
+}
+
+.project-link:hover {
+    background-color: #cae4fa;
+}
+
+/* Research Section */
+
+#research {
+    padding: 2rem 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.research-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+@media (min-width: 600px) {
+    .research-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 992px) {
+    .research-cards {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.research-card {
+    background: #f9f9f9; /* Changed to light grey */
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+.research-card:hover {
+    transform: translateY(-5px);
+}
+
+.paper-info,
+.author-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.paper-info p,
+.author-info p {
+    margin: 0.5rem 0;
+    color: var(--text-color);
+}
+
+.link {
+    color: var(--highlight-color);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+/* Adjustments for Dark Mode */
+
+body.dark-mode .project-card,
+body.dark-mode .research-card {
+    background: #1a1a1a;
+    box-shadow: 0 4px 6px rgba(0, 225, 255, 0.1);
+}
+
+body.dark-mode .project-link {
+    background-color: #1a1a1a;
+    border: 1px solid var(--highlight-color);
+}
+
+body.dark-mode .project-link:hover {
+    background-color: #333;
+}
+
+body.dark-mode .button.primary {
+    background-color: var(--highlight-color);
+    color: black;
+}
+
+body.dark-mode .button.secondary {
+    background-color: black;
+    color: var(--highlight-color);
+    border: 1px solid var(--highlight-color);
+}
+
+body.dark-mode #dark-mode-button {
+    color: var(--highlight-color);
+}
+
+/* Footer Styles */
+
+footer {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--background-color);
+    text-align: center;
+    padding: 1rem 0;
+}
+
+footer a {
+    display: inline-block;
+    margin: 0 0.5rem;
+    color: var(--highlight-color);
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: var(--highlight-color);
+}
