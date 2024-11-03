@@ -175,6 +175,8 @@ h2 {
     text-decoration: none;
 }
 
+
+
 @keyframes ripple {
     0% {
         transform: translateY(0);
@@ -258,6 +260,7 @@ h2 {
     flex-wrap: wrap;
     gap: 0.5rem;
     margin-bottom: 1rem;
+    text-align: center;
 }
 
 .project-link {
@@ -273,6 +276,7 @@ h2 {
     transition: background-color 0.3s ease;
 }
 
+
 .project-link:hover {
     background-color: #cae4fa;
 }
@@ -285,12 +289,15 @@ h2 {
     margin: 0 auto;
 }
 
+/* Change .research-cards to use flexbox in column direction */
 .research-cards {
-    display: grid;
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
     gap: 1.5rem;
-    max-width: 1200px;
+    max-width: 100%; /* Ensure the container doesn't exceed the viewport width */
+    padding: 0 1rem; /* Add horizontal padding */
     margin: 0 auto;
+    box-sizing: border-box; /* Include padding in width calculation */
 }
 
 @media (min-width: 600px) {
@@ -306,12 +313,13 @@ h2 {
 }
 
 .research-card {
-    background: #f9f9f9; /* Changed to light grey */
+    background: #f9f9f9; /* Light grey */
     border-radius: 8px;
     padding: 1.5rem;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
-    max-width: 350px;
+    width: 100%; /* Set width to 100% */
+    box-sizing: border-box; /* Include padding and border in width */
     margin: 0 auto;
 }
 
@@ -319,16 +327,20 @@ h2 {
     transform: translateY(-5px);
 }
 
+/* Ensure inner content doesn't cause overflow */
 .paper-info,
 .author-info {
-    display: flex;
-    flex-direction: column;
+    word-wrap: break-word; /* Allow long words or URLs to wrap */
+    overflow-wrap: break-word; /* For better browser support */
 }
 
+/* Adjust paragraphs within research cards */
 .paper-info p,
 .author-info p {
     margin: 0.5rem 0;
     color: var(--text-color);
+    word-wrap: break-word; /* Wrap long words or URLs */
+    overflow-wrap: break-word; /* For better browser support */
 }
 
 .link {
@@ -393,4 +405,14 @@ footer a {
 
 footer a:hover {
     color: var(--highlight-color);
+}
+
+@media (max-width: 600px) {
+    .research-card {
+        padding: 1rem;
+    }
+    .paper-info p,
+    .author-info p {
+        font-size: 0.9rem;
+    }
 }
