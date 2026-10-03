@@ -1,280 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <!-- Google Fonts -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap">
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="styles.css">
-    <!-- Bootstrap CSS (Using Bootstrap 5 from CDN) -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/5.0.0/css/bootstrap.min.css"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Keshav Ganapathy</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Keshav Ganapathy</title>
+<link rel="icon" href="images/favicon.ico">
+<style>
+  body { max-width: 760px; margin: 2em auto; padding: 0 1em; font-family: Georgia, serif; line-height: 1.5; }
+  img { float: right; width: 340px; max-width: 50%; margin: 0 0 1em 1em; }
+  li { margin-bottom: 0.8em; }
+</style>
 </head>
-<script src="https://kit.fontawesome.com/7dc3015a44.js" crossorigin="anonymous"></script><link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all"><link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-font-face.min.css" media="all"><link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-shims.min.css" media="all">
-
 <body>
 
-    <!-- Dark Mode Toggle Button -->
-    <!-- Placed inside the header for positioning -->
-    <header>
-        <div class="dark-mode-toggle">
-            <button id="dark-mode-button">🌙</button>
-        </div>
+<img src="images/profile.jpg" alt="Keshav Ganapathy">
 
-        <h1>Hi, I'm Keshav.</h1>
-        <p>A <span class="highlight">full-stack developer</span> who currently is—</p>
-        
-        <ul class="status-list">
-            <li class="status-item">studying at&nbsp;<span class="highlight">Georgia Institute of Technology</span></li>
-            <!-- <li class="status-item">listening to&nbsp;<span class="highlight">Spotify</span></li> -->
-            <li class="status-item">taking&nbsp;<span class="highlight">Data & Visual Analytics</span></li>
-        </ul>
+<h1>Keshav Ganapathy</h1>
 
-        <p>I'm a software engineer (GenAI Platform) at <a href="https://www.capitalone.com/">Capital One</a>.</p>
+<p>
+AI Engineer, <a href="https://www.obin.ai/">Obin AI</a><br>
+M.S. student, <a href="https://omscs.gatech.edu/">OMSCS</a>, Georgia Institute of Technology<br>
+Email: kganapathy23 [at] gmail [dot] com
+</p>
 
-        <p>Feel free to reach out at <span class="highlight">kganapathy23 [at] gmail [dot] com</span> </p>
+<p>
+<a href="files/resume.pdf">CV</a> |
+<a href="https://scholar.google.com/citations?hl=en&user=XLvMzFoAAAAJ">Google Scholar</a> |
+<a href="https://github.com/keshavganapathy">GitHub</a> |
+<a href="https://www.linkedin.com/in/keshavganapathy/">LinkedIn</a>
+</p>
 
-        <div class="button-container">
-            <a href="#projects" class="button primary">My Projects</a>
-            <a href="files/resume.pdf" class="button secondary">Resume</a>
-        </div>
-        <div class="scroll-down">
-            <a href="#projects" class="arrow">&#8595;</a>
-        </div>
-    </header>
+<h2>Bio</h2>
 
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="projects">
-            <!-- Groove Project Card -->
-            <article class="project-card">
-                <img src="images/portfolio/groove.png" class="card-img-top" alt="Groove">
-                <div class="project-content">
-                    <h3 class="project-title">Groove</h3>
-                    <p class="project-description">
-                        Groove is a platform whose goal is to provide high-quality fitness training to all.
-                        Groove received 2nd Place Health Hack at DefHacks 2020 virtual.
-                    </p>
-                    <div class="project-links">
-                        <a href="https://devpost.com/software/groove" target="_blank" class="project-link demo-link">Devpost</a>
-                        <a href="https://github.com/keshavganapathy/Groove" target="_blank" class="project-link source-link">GitHub</a>
-                        <a href="https://www.youtube.com/watch?v=VJJGQrP6cqc&t=0s" target="_blank" class="project-link source-link">YouTube</a>
-                    </div>
-                </div>
-            </article>
-    
-            <!-- BrainFun Project Card -->
-            <article class="project-card">
-                <img src="images/portfolio/brainfun.jpg" class="card-img-top" alt="BrainFun">
-                <div class="project-content">
-                    <h3 class="project-title">BrainFun</h3>
-                    <p class="project-description">
-                        An award-winning web application that teaches kids logical thinking via the esoteric programming language Brainf*ck.
-                    </p>
-                    <div class="project-links">
-                        <a href="https://devpost.com/software/brainfun-fqvu65" target="_blank" class="project-link demo-link">Devpost</a>
-                        <a href="https://github.com/keshavganapathy/brainfun" target="_blank" class="project-link source-link">GitHub</a>
-                        <a href="https://www.youtube.com/watch?v=OePcA8RWerU" target="_blank" class="project-link source-link">YouTube</a>
-                    </div>
-                </div>
-            </article>
-    
-            <!-- Harmony Project Card -->
-            <article class="project-card">
-                <img src="images/portfolio/harmony.png" class="card-img-top" alt="Harmony">
-                <div class="project-content">
-                    <h3 class="project-title">Harmony</h3>
-                    <p class="project-description">
-                        A web application using Svelte that allows near-synchronous collaboration between musicians.
-                        This project received 3rd place at d.hacks 2021.
-                    </p>
-                    <div class="project-links">
-                        <a href="https://devpost.com/software/harmony-5z43q2" target="_blank" class="project-link demo-link">Devpost</a>
-                        <a href="https://github.com/keshavganapathy/harmony" target="_blank" class="project-link source-link">GitHub</a>
-                        <a href="https://www.youtube.com/watch?v=IiDpJOLuT1w" target="_blank" class="project-link source-link">YouTube</a>
-                    </div>
-                </div>
-            </article>
-    
-            <!-- DataX Project Card -->
-            <article class="project-card">
-                <img src="images/portfolio/datax.png" class="card-img-top" alt="DataX">
-                <div class="project-content">
-                    <h3 class="project-title">DataX</h3>
-                    <p class="project-description">
-                        An innovative and adaptive tool that allows for easily customizable multi-dimensional data representation.
-                    </p>
-                    <div class="project-links">
-                        <a href="https://devpost.com/software/datax-5y78dn" target="_blank" class="project-link demo-link">Devpost</a>
-                        <a href="https://github.com/keshavganapathy/DataX" target="_blank" class="project-link source-link">GitHub</a>
-                        <a href="https://www.youtube.com/watch?v=E-lx0y6E2kY&feature=emb_title" target="_blank" class="project-link source-link">YouTube</a>
-                    </div>
-                </div>
-            </article>
-    
-            <!-- Airomega Project Card -->
-            <article class="project-card">
-                <img src="images/portfolio/airomega.PNG" class="card-img-top" alt="AirOmega">
-                <div class="project-content">
-                    <h3 class="project-title">Airomega</h3>
-                    <p class="project-description">
-                        AirOmega was a website for FBLA 2020. The challenge was to design an airline website with various functionality requirements.
-                        We received 1st place at regionals.
-                    </p>
-                    <div class="project-links">
-                        <a href="https://airomega.web.app/" target="_blank" class="project-link demo-link">Website</a>
-                        <a href="https://github.com/keshavganapathy/airomega" target="_blank" class="project-link source-link">GitHub</a>
-                    </div>
-                </div>
-            </article>
-    
-            <!-- PoliBias Project Card -->
-            <article class="project-card">
-                <img src="images/portfolio/polibias.PNG" class="card-img-top" alt="PoliBias">
-                <div class="project-content">
-                    <h3 class="project-title">PoliBias</h3>
-                    <p class="project-description">
-                        A Flask app that uses a recurrent neural network to detect bias in texts such as news and tweets.
-                        This project was submitted to MasseyHacks VI.
-                    </p>
-                    <div class="project-links">
-                        <a href="https://devpost.com/software/polibias-iqrwh9" target="_blank" class="project-link demo-link">Devpost</a>
-                        <a href="https://github.com/keshavganapathy/PoliBias" target="_blank" class="project-link source-link">GitHub</a>
-                        <a href="https://www.youtube.com/watch?v=Ynrbp6ga888&t=0s" target="_blank" class="project-link source-link">YouTube</a>
-                    </div>
-                </div>
-            </article>
-    
-            <!-- WebPoint Websites Project Card -->
-            <article class="project-card">
-                <img src="images/portfolio/webpoint.PNG" class="card-img-top" alt="WebPoint">
-                <div class="project-content">
-                    <h3 class="project-title">WebPoint Websites</h3>
-                    <p class="project-description">
-                        Webpoint is a volunteer organization I co-founded that delivers professional websites to local businesses
-                        and provides students with practical experience in web development.
-                    </p>
-                    <div class="project-links">
-                        <a href="https://webpoint.dev/" target="_blank" class="project-link demo-link">Website</a>
-                        <a href="https://github.com/webpointco" target="_blank" class="project-link source-link">GitHub</a>
-                        <a href="mailto:webpointexecutives@gmail.com" target="_blank" class="project-link source-link">Email</a>
-                    </div>
-                </div>
-            </article>
-    
-            <!-- Playground Project Card -->
-            <article class="project-card">
-                <img src="images/portfolio/playground.PNG" class="card-img-top" alt="The Playground">
-                <div class="project-content">
-                    <h3 class="project-title">The Playground</h3>
-                    <p class="project-description">
-                        A spinoff of the popular game Jetpack Joyride, created as the final project for an Advanced Object-Oriented Design G/T class.
-                    </p>
-                    <div class="project-links">
-                        <a href="https://github.com/keshavganapathy/the-playground" target="_blank" class="project-link source-link">GitHub</a>
-                    </div>
-                </div>
-            </article>
-        </div>
-    </section>
+<p>
+I am an AI Engineer at <a href="https://www.obin.ai/">Obin AI</a> and an M.S. student in Georgia Tech's Online Master of Science in Computer Science (OMSCS) program. Before that, I was a software engineer on the GenAI Platform team at Capital One. My current interests lie at the intersection of agentic AI and finance: building systems where language models plan, use tools, and take actions to solve real-world financial tasks.
+Earlier, I did machine learning research with Tom Goldstein's group at the University of Maryland,
+where I studied the peer review process at machine learning conferences, including the role of
+author demographics in ICLR participation and review. I have also worked on genetic algorithms
+for hyperparameter optimization of neural machine translation models. In my free time, I love watching sports, playing golf, hiking, and trying new restaurants.
+</p>
 
-    <section id="research">
-        <h2>Research</h2>
-        <div class="research-cards">
-            <!-- Research Card 1 -->
-            <div class="research-card">
-                <div class="paper-info">
-                    <p><strong>An Open Review of OpenReview:</strong> A Critical Analysis of the Machine Learning Conference Review Process</p>
-                </div>
-                <div class="author-info">
-                    <p>Authors: D Tran, A Valtchanov, <strong>K Ganapathy</strong>, R Feng, E Slud, M Goldblum, T Goldstein</p>
-                    <p>Year: 2020 | <a href="https://openreview.net/pdf?id=Cn706AbJaKW" target="_blank" class="link">Link </a> | Citations: 38</p>
-                </div>
-            </div>
-    
-            <!-- Research Card 2 -->
-            <div class="research-card">
-                <div class="paper-info">
-                    <p><strong>A Study of Genetic Algorithms for Hyperparameter Optimization of Neural Networks in Machine Translation</strong></p>
-                </div>
-                <div class="author-info">
-                    <p>Authors: <strong>K Ganapathy</strong></p>
-                    <p>Year: 2020 | <a href="https://arxiv.org/pdf/2009.08928" target="_blank" class="link">Link</a> | Citations: 6</p>
-                </div>
-            </div>
-    
-            <!-- Research Card 3 -->
-            <div class="research-card">
-                <div class="paper-info">
-                    <p><strong>Analyzing the Machine Learning Conference Review Process</strong></p>
-                </div>
-                <div class="author-info">
-                    <p>Authors: D Tran, A Valtchanov, <strong>K Ganapathy</strong>, R Feng, E Slud, M Goldblum, T Goldstein</p>
-                    <p>Year: 2020 | <a href="https://arxiv.org/pdf/2011.129197" target="_blank" class="link">Link</a> | Citations: 1</p>
-                </div>
-            </div>
-    
-            <!-- Research Card 4 -->
-            <div class="research-card">
-                <div class="paper-info">
-                    <p><strong>An Investigation into the Role of Author Demographics in ICLR Participation and Review</strong></p>
-                </div>
-                <div class="author-info">
-                    <p>Authors: <strong>K Ganapathy</strong>, E Liu, Z Zarger, G Somepalli, M Goldblum, T Goldstein</p>
-                    <p>Year: 2020 | <a href="https://openreview.net/pdf?id=1DUwCRNAbA" target="_blank" class="link">Link</a></p>
-                </div>
-            </div>
-        </div>
-    </section>
+<h2>Papers</h2>
 
-    <footer>
-        <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/keshavganapathy" target="_blank"><i class="fab fa-github fa-2x"></i></a>
-        <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/keshavganapathy/" target="_blank"><i class="fab fa-fw fa-linkedin fa-2x"></i></a>
-        <a class="btn btn-outline-light btn-social mx-1" href="mailto:kganapathy23@gmail.com" target="_blank"><i class="fas fa-envelope-square fa-2x"></i></a>
-        <a class="btn btn-outline-light btn-social mx-1" href="https://scholar.google.com/citations?hl=en&user=XLvMzFoAAAAJ" target="_blank"><i class="ai ai-google-scholar ai-2x"></i></a>
-    </footer>
-
-
-    <!-- Bootstrap JS -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/5.0.0/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Dark Mode Toggle Script -->
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const toggleButton = document.getElementById('dark-mode-button');
-            const prefersDarkScheme = window.matchMedia('(prefers-color-scheme: dark)');
-            const currentTheme = localStorage.getItem('theme');
-
-            if (currentTheme === 'dark') {
-                document.body.classList.add('dark-mode');
-                toggleButton.textContent = '☀️';
-            } else if (currentTheme === 'light') {
-                document.body.classList.remove('dark-mode');
-                toggleButton.textContent = '🌙';
-            } else if (prefersDarkScheme.matches) {
-                document.body.classList.add('dark-mode');
-                toggleButton.textContent = '☀️';
-            } else {
-                // Default to light mode
-                document.body.classList.remove('dark-mode');
-                toggleButton.textContent = '🌙';
-            }
-
-            toggleButton.addEventListener('click', function() {
-                document.body.classList.toggle('dark-mode');
-                let theme = 'light';
-                if (document.body.classList.contains('dark-mode')) {
-                    theme = 'dark';
-                    toggleButton.textContent = '☀️';
-                } else {
-                    toggleButton.textContent = '🌙';
-                }
-                localStorage.setItem('theme', theme);
-            });
-        });
-    </script>
+<ul>
+  <li>
+    <a href="https://openreview.net/pdf?id=Cn706AbJaKW">An Open Review of OpenReview: A Critical Analysis of the Machine Learning Conference Review Process</a><br>
+    D. Tran, A. Valtchanov, <b>K. Ganapathy</b>, R. Feng, E. Slud, M. Goldblum, T. Goldstein<br>
+    2020
+  </li>
+  <li>
+    <a href="https://arxiv.org/abs/2011.12919">Analyzing the Machine Learning Conference Review Process</a><br>
+    D. Tran, A. Valtchanov, <b>K. Ganapathy</b>, R. Feng, E. Slud, M. Goldblum, T. Goldstein<br>
+    arXiv, 2020
+  </li>
+  <li>
+    <a href="https://openreview.net/pdf?id=1DUwCRNAbA">An Investigation into the Role of Author Demographics in ICLR Participation and Review</a><br>
+    <b>K. Ganapathy</b>, E. Liu, Z. Zarger, G. Somepalli, M. Goldblum, T. Goldstein<br>
+    2020
+  </li>
+  <li>
+    <a href="https://arxiv.org/abs/2009.08928">A Study of Genetic Algorithms for Hyperparameter Optimization of Neural Networks in Machine Translation</a><br>
+    <b>K. Ganapathy</b><br>
+    arXiv, 2020
+  </li>
+</ul>
 
 </body>
 </html>
-
